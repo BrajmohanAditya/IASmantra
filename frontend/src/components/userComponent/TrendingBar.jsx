@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 
 const TrendingBar = () => {
   const trendingLinks = [
-    { text: "NDA I 2026 Written Result Declared", url: "#" },
-    { text: "Agniveer Army Rally Schedule Out 2026", url: "#" },
-    { text: "Air Force Group X & Y Exam Dates Announced", url: "#" },
-    { text: "Navy SSR/MR Online Application Form 2026", url: "#" },
-    { text: "CDS II Notification PDF Download", url: "#" },
+    { text: "UPSC Civil Services CSE 2026 Notification", url: "#" },
+    { text: "BPSC 70th CCE Prelims Result & Cutoff", url: "#" },
+    { text: "CDS II 2026 Notification PDF Download", url: "#" },
+    { text: "NDA I 2026 Written Exam Result Declared", url: "#" },
+    { text: "UPSC Mains Answer Writing Daily Practice", url: "#" },
+    { text: "BPSC & State PCS Test Series 2026", url: "#" },
     { text: "Weekly Current Affairs PDF Download", url: "#" },
-    { text: "AFCAT 1 2026 Admit Card Out", url: "#" },
-    { text: "MNS Exam Dates Announced", url: "#" },
   ];
 
   return (

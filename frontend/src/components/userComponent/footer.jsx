@@ -6,7 +6,7 @@ import {
   Globe,
   Clock,
   ArrowRight,
-  Shield,
+  GraduationCap,
   Star,
   ChevronRight,
 } from "lucide-react";
@@ -22,17 +22,15 @@ const Footer = () => {
   ];
 
   const examLinks = [
-    { label: "NDA Foundation (11th+12th+NDA+SSB Interview)", href: "#" },
-    { label: "NDA Target (12th Pass)", href: "#" },
-    { label: "CDS", href: "#" },
-    { label: "MNS", href: "#" },
-    { label: "AFCAT", href: "#" },
-    { label: "SSB Interview", href: "#" },
-    { label: "NDA Test", href: "#" },
-    { label: "CDS Test", href: "#" },
-    { label: "AFCAT Test", href: "#" },
-    { label: "NDA Mock Test 2026", href: "#" },
-    { label: "CDS Mock Test 2026", href: "#" },
+    { label: "UPSC Civil Services (IAS/IPS/IFS)", href: "#" },
+    { label: "BPSC (Bihar Public Service Commission)", href: "#" },
+    { label: "UPPSC (Uttar Pradesh Public Service Commission)", href: "#" },
+    { label: "State PCS Preparation", href: "#" },
+    { label: "UPSC IAS Foundation Course", href: "#" },
+    { label: "UPSC Prelims Test Series 2026", href: "#" },
+    { label: "UPSC Mains Answer Writing", href: "#" },
+    { label: "CSAT Special Course", href: "#" },
+    { label: "UPSC EPFO & APFC Mock", href: "#" },
   ];
 
   const socialLinks = [
@@ -72,7 +70,7 @@ const Footer = () => {
       <div
         style={{
           background:
-            "linear-gradient(135deg, #0d2b1a 0%, #1a4a2e 50%, #0d2b1a 100%)",
+            "linear-gradient(135deg, #0b2545 0%, #134074 50%, #0b2545 100%)",
           borderBottom: "1px solid rgba(212,175,55,0.3)",
           position: "relative",
           overflow: "hidden",
@@ -121,7 +119,7 @@ const Footer = () => {
                 marginBottom: "12px",
               }}
             >
-              <Shield size={22} style={{ color: "#d4af37" }} />
+              <GraduationCap size={22} style={{ color: "#d4af37" }} />
               <span
                 style={{
                   fontSize: "12px",
@@ -131,7 +129,7 @@ const Footer = () => {
                   color: "#d4af37",
                 }}
               >
-                Join the Mission
+                Begin Your Journey
               </span>
             </div>
             <h2
@@ -143,18 +141,18 @@ const Footer = () => {
                 lineHeight: 1.3,
               }}
             >
-              Ready to Serve the Nation?
+              Ready to Serve the Nation as a Civil Servant?
             </h2>
             <p
               style={{
                 fontSize: "14px",
-                color: "#a3bfaa",
+                color: "#8da9c4",
                 margin: 0,
                 maxWidth: "420px",
               }}
             >
-              Subscribe for daily current affairs, exam notifications, and
-              defence prep tips delivered to your inbox.
+              Subscribe for daily current affairs, UPSC exam notifications, and
+              civil services preparation tips delivered to your inbox.
             </p>
           </div>
 
@@ -200,7 +198,7 @@ const Footer = () => {
               style={{
                 padding: "14px 22px",
                 background: "linear-gradient(135deg, #d4af37, #f0d060)",
-                color: "#0d2b1a",
+                color: "#0b2545",
                 fontWeight: 700,
                 fontSize: "14px",
                 border: "none",
@@ -227,7 +225,7 @@ const Footer = () => {
       {/* ── Main Footer Body ── */}
       <div
         style={{
-          background: "linear-gradient(180deg, #091a10 0%, #050e08 100%)",
+          background: "linear-gradient(180deg, #081b33 0%, #040f1c 100%)",
           padding: "72px 24px 48px",
         }}
       >
@@ -256,7 +254,7 @@ const Footer = () => {
                   width: "52px",
                   height: "52px",
                   borderRadius: "10px",
-                  background: "linear-gradient(135deg, #1a4a2e, #0d2b1a)",
+                  background: "linear-gradient(135deg, #134074, #0b2545)",
                   border: "1px solid rgba(212,175,55,0.5)",
                   display: "flex",
                   alignItems: "center",
@@ -264,7 +262,7 @@ const Footer = () => {
                   boxShadow: "0 0 20px rgba(212,175,55,0.15)",
                 }}
               >
-                <Shield size={26} style={{ color: "#d4af37" }} />
+                <GraduationCap size={26} style={{ color: "#d4af37" }} />
               </div>
               <div>
                 <div
@@ -293,7 +291,7 @@ const Footer = () => {
             <p
               style={{
                 fontSize: "13px",
-                color: "#7a9e82",
+                color: "#8da9c4",
                 lineHeight: 1.8,
                 marginBottom: "24px",
               }}
@@ -321,7 +319,7 @@ const Footer = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    color: "#7a9e82",
+                    color: "#8da9c4",
                     transition: "all 0.25s",
                     textDecoration: "none",
                   }}
@@ -332,7 +330,7 @@ const Footer = () => {
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.color = "#7a9e82";
+                    e.currentTarget.style.color = "#8da9c4";
                     e.currentTarget.style.borderColor = "rgba(212,175,55,0.2)";
                   }}
                 >
@@ -389,7 +387,7 @@ const Footer = () => {
                           alignItems: "center",
                           gap: "8px",
                           fontSize: "13px",
-                          color: "#7a9e82",
+                          color: "#8da9c4",
                           textDecoration: "none",
                           transition: "color 0.2s",
                         }}
@@ -397,7 +395,7 @@ const Footer = () => {
                           (e.currentTarget.style.color = "#d4af37")
                         }
                         onMouseLeave={(e) =>
-                          (e.currentTarget.style.color = "#7a9e82")
+                          (e.currentTarget.style.color = "#8da9c4")
                         }
                       >
                         <ChevronRight size={14} />
@@ -411,7 +409,7 @@ const Footer = () => {
                           alignItems: "center",
                           gap: "8px",
                           fontSize: "13px",
-                          color: "#7a9e82",
+                          color: "#8da9c4",
                           textDecoration: "none",
                           transition: "color 0.2s",
                         }}
@@ -419,7 +417,7 @@ const Footer = () => {
                           (e.currentTarget.style.color = "#d4af37")
                         }
                         onMouseLeave={(e) =>
-                          (e.currentTarget.style.color = "#7a9e82")
+                          (e.currentTarget.style.color = "#8da9c4")
                         }
                       >
                         <ChevronRight size={14} />
@@ -467,7 +465,7 @@ const Footer = () => {
                       alignItems: "center",
                       gap: "8px",
                       fontSize: "13px",
-                      color: "#7a9e82",
+                      color: "#8da9c4",
                       textDecoration: "none",
                       transition: "color 0.2s",
                     }}
@@ -475,7 +473,7 @@ const Footer = () => {
                       (e.currentTarget.style.color = "#d4af37")
                     }
                     onMouseLeave={(e) =>
-                      (e.currentTarget.style.color = "#7a9e82")
+                      (e.currentTarget.style.color = "#8da9c4")
                     }
                   >
                     <ChevronRight size={14} />
@@ -540,15 +538,15 @@ const Footer = () => {
                 <span
                   style={{
                     fontSize: "13px",
-                    color: "#7a9e82",
+                    color: "#8da9c4",
                     lineHeight: 1.7,
                   }}
                 >
-                  3rd Floor, Rai Complex, E Boring Canal Rd,
+                  E-3, P C Colony Rd,
                   <br />
-                  Near Panchmukhi Mandir,
+                  Kankarbagh,
                   <br />
-                  Kidwaipuri, Patna, Bihar 800001
+                  Patna, Bihar 800020
                 </span>
               </li>
 
@@ -572,10 +570,10 @@ const Footer = () => {
                   <Phone size={14} style={{ color: "#d4af37" }} />
                 </div>
                 <a
-                  href="tel:6287029439"
+                  href="tel:8809198880"
                   style={{
                     fontSize: "13px",
-                    color: "#7a9e82",
+                    color: "#8da9c4",
                     textDecoration: "none",
                     transition: "color 0.2s",
                   }}
@@ -583,10 +581,10 @@ const Footer = () => {
                     (e.currentTarget.style.color = "#d4af37")
                   }
                   onMouseLeave={(e) =>
-                    (e.currentTarget.style.color = "#7a9e82")
+                    (e.currentTarget.style.color = "#8da9c4")
                   }
                 >
-                  6287029439
+                  8809198880
                 </a>
               </li>
 
@@ -613,7 +611,7 @@ const Footer = () => {
                   href="mailto:contact@iasmantra.com"
                   style={{
                     fontSize: "13px",
-                    color: "#7a9e82",
+                    color: "#8da9c4",
                     textDecoration: "none",
                     wordBreak: "break-all",
                     transition: "color 0.2s",
@@ -622,7 +620,7 @@ const Footer = () => {
                     (e.currentTarget.style.color = "#d4af37")
                   }
                   onMouseLeave={(e) =>
-                    (e.currentTarget.style.color = "#7a9e82")
+                    (e.currentTarget.style.color = "#8da9c4")
                   }
                 >
                   contact@iasmantra.com
@@ -654,7 +652,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   style={{
                     fontSize: "13px",
-                    color: "#7a9e82",
+                    color: "#8da9c4",
                     textDecoration: "none",
                     transition: "color 0.2s",
                   }}
@@ -662,10 +660,10 @@ const Footer = () => {
                     (e.currentTarget.style.color = "#d4af37")
                   }
                   onMouseLeave={(e) =>
-                    (e.currentTarget.style.color = "#7a9e82")
+                    (e.currentTarget.style.color = "#8da9c4")
                   }
                 >
-                  iasmantra.com
+                  iasmantras.com
                 </a>
               </li>
             </ul>
@@ -708,7 +706,7 @@ const Footer = () => {
                   marginBottom: "8px",
                 }}
               >
-                <span style={{ fontSize: "12px", color: "#7a9e82" }}>
+                <span style={{ fontSize: "12px", color: "#8da9c4" }}>
                   Tue – Sat
                 </span>
                 <span
@@ -722,7 +720,7 @@ const Footer = () => {
                 </span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <span style={{ fontSize: "12px", color: "#7a9e82" }}>
+                <span style={{ fontSize: "12px", color: "#8da9c4" }}>
                   Sunday
                 </span>
                 <span
@@ -763,7 +761,7 @@ const Footer = () => {
           />
           <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
             <Star size={10} style={{ color: "#d4af37", fill: "#d4af37" }} />
-            <Shield size={16} style={{ color: "#d4af37" }} />
+            <GraduationCap size={16} style={{ color: "#d4af37" }} />
             <Star size={10} style={{ color: "#d4af37", fill: "#d4af37" }} />
           </div>
           <div
@@ -780,7 +778,7 @@ const Footer = () => {
       {/* ── Copyright Bar ── */}
       <div
         style={{
-          background: "#030a05",
+          background: "#02070f",
           borderTop: "1px solid rgba(212,175,55,0.1)",
           padding: "20px 24px",
         }}
@@ -797,18 +795,18 @@ const Footer = () => {
           }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <p style={{ fontSize: "12px", color: "#3d5c43", margin: 0 }}>
+            <p style={{ fontSize: "12px", color: "#5c7b99", margin: 0 }}>
               &copy; {new Date().getFullYear()} IAS Mantra Academy. All
               rights reserved.
             </p>
-            <p style={{ fontSize: "11px", color: "#2a402e", margin: 0 }}>
+            <p style={{ fontSize: "11px", color: "#475b70", margin: 0 }}>
               Designed & Developed by{" "}
-              <strong style={{ color: "#7a9e82" }}>IITNS</strong> | Contact:{" "}
+              <strong style={{ color: "#8da9c4" }}>IITNS</strong> | Contact:{" "}
               <a
                 href="https://wa.me/918521859948"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "#7a9e82", textDecoration: "none" }}
+                style={{ color: "#8da9c4", textDecoration: "none" }}
               >
                 WhatsApp (+91 85218 59948)
               </a>
@@ -822,7 +820,7 @@ const Footer = () => {
                   href="#"
                   style={{
                     fontSize: "12px",
-                    color: "#3d5c43",
+                    color: "#5c7b99",
                     textDecoration: "none",
                     transition: "color 0.2s",
                   }}
@@ -830,7 +828,7 @@ const Footer = () => {
                     (e.currentTarget.style.color = "#d4af37")
                   }
                   onMouseLeave={(e) =>
-                    (e.currentTarget.style.color = "#3d5c43")
+                    (e.currentTarget.style.color = "#5c7b99")
                   }
                 >
                   {item}
