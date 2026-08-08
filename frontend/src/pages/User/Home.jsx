@@ -41,27 +41,7 @@ const Home = () => {
 
       <FloatingWhatsApp />
 
-      {/* Image Popup Modal */}
-      {showPopup && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm p-4">
-          <div className="relative max-w-lg w-full bg-transparent shadow-2xl transition-all transform scale-100">
-            {/* Close Button */}
-            <button
-            onClick={handleClose}
-              className="absolute -top-3 -right-3 z-10 p-2 rounded-full bg-black/70 hover:bg-black/90 text-white transition-all cursor-pointer border border-white/20"
-              aria-label="Close popup"
-            >
-              <X size={20} />
-            </button>
-            {/* Popup Image */}
-            <img
-              src="/adv.png"
-              alt="Announcement"
-              className="w-full h-auto max-h-[85vh] rounded-2xl object-contain block"
-            />
-          </div>
-        </div>
-      )}
+
     </div>
   );
 };
