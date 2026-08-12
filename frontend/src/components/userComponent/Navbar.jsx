@@ -97,21 +97,14 @@ const Navbar = () => {
         <img
           src="/logo3rd.png"
           alt="IAS Mantra Logo"
-          className=" h-20 w-auto object-contain drop-shadow-md"
+          className=" h-18 w-auto object-contain drop-shadow-md"
         />
 
-        <h1
-          className="text-2xl lg:text-3xl font-bold tracking-wide drop-shadow-sm"
-          style={{
-            color: "#0b2545", // Deep Royal Navy
-            fontFamily: "'Playfair Display', 'Georgia', serif",
-          }}
-        >
-          IAS
-          <span style={{ color: "#c5a85a" }} className="ml-2 font-medium italic">
-            Mantra
-          </span>
-        </h1>
+        <img
+          src="/name.png"
+          alt="IAS Mantra Logo"
+          className=" h-15 w-auto object-contain drop-shadow-md"
+        />
       </div>
 
       {/* Search Bar in Navbar */}
